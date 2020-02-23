@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Restaurent App
+    </title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.11.0/css/mdb.min.css" rel="stylesheet">
+    <link href="susan.css" rel="stylesheet">
+    <script src="susan.js"></script>
+
+</head>
+
+<body>
+    <h1>Maitre D</h1>
+    <main>
+        <br>
+        <div class="tab">
+            <table>
+                <tr>
+                    <td>
+                        <label id="t">Total: $</label>
+                        <input id="total" type="number"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="tp">Tip: $</label><span id="tip"></span><br><br>
+                    </td>
+                    <td>
+                        <label>Rate: %</label>
+                        <input id="rate" type="number"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="tax">Tax: $5.50</label><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="gd">Grand Total: $<span id="grandtotal"></span></label><br>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <p>
+                <button id="btn" onclick="Grandtotal()">Calculate</button>
+            </p>
+    </main>
+    <script src="scripts/script.js"></script>
+    </div>
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/js/mdb.min.js"></script>
+</body>
+<footer>
+    <div class="foot"> &copy; susan maharjan 2020</div>
+</footer>
+
+</html>
