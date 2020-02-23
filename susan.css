@@ -1,0 +1,53 @@
+
+h1{
+    text-align:center;
+    color: white;
+ }
+ p{
+    text-align:center;
+ }
+ table{
+     margin: auto;
+     padding:3em;
+     background-color: rgb(252, 227, 89);
+     
+ }
+ #rate{
+     margin-right:1em;
+ }
+ #t{
+    margin-left:1em;
+    margin-top: 1em;
+}
+#tp{
+    margin-left:1em;
+}
+#tip{
+    margin-left:1em;
+}
+#tax{
+    margin-left:1em;
+}
+#gd{
+    margin-left:1em;
+}
+ body{
+     background-color:rgb(129, 129, 129);
+ } 
+ #btn{
+    background-color:rgb(252, 227, 89);
+    color:black;
+    border-color: white;
+    border-radius: 1em;
+    }
+#btn:hover{
+    background:black;
+    color:rgb(252, 227, 89);
+}
+.foot{
+    text-align: center;
+    color: white;
+}
+.tab{
+padding: 3em;
+}
